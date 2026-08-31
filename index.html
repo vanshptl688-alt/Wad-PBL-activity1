@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Awareness & Safety Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <p class="tag">SDG 4 • SDG 16</p>
+      <h1>Cyber Awareness & Safety Platform</h1>
+      <p class="subtitle">Learn how to stay safe, secure, and responsible online.</p>
+      <div class="student">
+        <strong>Student:</strong> PATEL VANSH MINESHBHAI
+        <span>|</span>
+        <strong>Enrollment No:</strong> 240860116060
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container nav-inner">
+      <a href="#threats">Threats</a>
+      <a href="#tips">Safety Tips</a>
+      <a href="#checklist">Checklist</a>
+      <a href="#quiz">Quiz</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h2>Think Before You Click</h2>
+        <p>Cyber awareness helps users recognize online threats and make safer digital decisions.</p>
+        <a class="btn" href="#quiz">Take the Quiz</a>
+      </div>
+      <div class="shield">🛡️</div>
+    </section>
+
+    <section id="threats">
+      <h2>Common Cyber Threats</h2>
+      <div class="grid">
+        <article class="card"><h3>🎣 Phishing</h3><p>Fake emails, messages, or websites designed to steal information.</p></article>
+        <article class="card"><h3>🔐 Password Attacks</h3><p>Attackers try to guess, reuse, or steal weak passwords.</p></article>
+        <article class="card"><h3>🦠 Malware</h3><p>Malicious software can damage devices or steal data.</p></article>
+        <article class="card"><h3>👤 Identity Theft</h3><p>Personal information may be misused to impersonate someone.</p></article>
+      </div>
+    </section>
+
+    <section id="tips">
+      <h2>Essential Safety Tips</h2>
+      <div class="tips">
+        <label><input type="checkbox"> Use strong, unique passwords.</label>
+        <label><input type="checkbox"> Enable two-factor authentication.</label>
+        <label><input type="checkbox"> Verify links before opening them.</label>
+        <label><input type="checkbox"> Keep operating systems and apps updated.</label>
+        <label><input type="checkbox"> Avoid sharing OTPs, passwords, or sensitive information.</label>
+        <label><input type="checkbox"> Use secure Wi-Fi and avoid unknown public networks for sensitive work.</label>
+      </div>
+    </section>
+
+    <section id="checklist">
+      <h2>Suspicious Activity Checklist</h2>
+      <div class="check-card">
+        <p>If you notice suspicious activity:</p>
+        <ol>
+          <li>Stop interacting with the suspicious message or website.</li>
+          <li>Do not share passwords or OTPs.</li>
+          <li>Change compromised passwords.</li>
+          <li>Enable two-factor authentication.</li>
+          <li>Report the incident to the relevant platform or cybercrime authority.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="quiz">
+      <h2>Cyber Safety Quiz</h2>
+      <div class="quiz">
+        <p><strong>1. What should you do with a suspicious link?</strong></p>
+        <button onclick="answer(this, false)">Open it immediately</button>
+        <button onclick="answer(this, true)">Verify it before opening</button>
+
+        <p><strong>2. Should you share an OTP with someone who calls you?</strong></p>
+        <button onclick="answer(this, false)">Yes</button>
+        <button onclick="answer(this, true)">No</button>
+
+        <p><strong>3. Which is safer?</strong></p>
+        <button onclick="answer(this, true)">Unique passwords + 2FA</button>
+        <button onclick="answer(this, false)">One password everywhere</button>
+
+        <div id="result" class="result"></div>
+      </div>
+    </section>
+
+    <section class="sdg">
+      <h2>SDG Mapping</h2>
+      <p><strong>SDG 4 – Quality Education:</strong> Promotes digital literacy and cybersecurity awareness.</p>
+      <p><strong>SDG 16 – Peace, Justice and Strong Institutions:</strong> Encourages safer, responsible, and trustworthy digital participation.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Cyber Awareness & Safety Platform | PATEL VANSH MINESHBHAI | 240860116060</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
